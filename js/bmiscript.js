@@ -1,5 +1,5 @@
 var bmi = function(weight, height) {
-  return ((weight/(height^2))X703)
+  return ((weight/((Math.pow(height,2)))X703)
 };
 
 var weight = parseInt(prompt("Enter your weight:"));
