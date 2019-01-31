@@ -1,8 +1,8 @@
-var bmi = function(weight, height) {
-  return (weight/((Math.pow(height,2)))*703)
-}
+var add = function(number1, number2) {
+  return number1 + number2;
+};
 
-var weight = parseInt(prompt("Enter your weight:"));
-var height = parseInt(prompt("Enter your height:"));
-var bmiResult = bmi(weight, height);
-alert(bmiResult);
+var number1 = parseInt(prompt("Enter a number:"));
+var number2 = parseInt(prompt("Enter another number:"));
+var result = add(number1, number2);
+alert(result);
